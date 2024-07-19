@@ -7,7 +7,7 @@
 
 body{
     text-align: center;
-    background: linear-gradient(to bottom, #00BFFF, #fff);
+    background: linear-gradient(to bottom, #00BFFF, #9ad1fd);  
 }
 
 main{
@@ -93,15 +93,16 @@ main{
 }
 
 footer{
-    background-color: #333; /* Cor de fundo escura */
-    color: #fff; /* Cor do texto branca */
-    padding: 20px 0; /* Espaçamento interno superior e inferior */
-    position: fixed; /* Fixar o footer na parte inferior */
-    width: 100%; /* Largura total */
-    bottom: 0; /* Alinha o footer na parte inferior */
+    background: linear-gradient(#9ad1fd, royalblue);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     text-align: center;
+    max-height: 70px;
+    margin: auto;
+    
 }
 
-footer>p{
-    margin: 0;
+footer.img{
+    max-height: 70px;
 }
